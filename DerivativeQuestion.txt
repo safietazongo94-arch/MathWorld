@@ -1,0 +1,78 @@
+Differentiate f(x) = 4x^5 - 5x^4
+20x^4 - 20x^3
+Power rule (x^n)'=nx^n-1
+
+Differentiate f(x) = e^x * sin(x)
+e^x * sin(x) + e^x * cos(x)
+Product rule (f*g)'= f'g + fg'
+
+Differentiate f(x) = (x^4 + 3x)^(-1)
+-(4x^3 + 3) / (x^4 + 3x)^2
+Chain + quotient rule [f(g(x))] = f'(g(x)) * g'(x)  and (f/g)'= (f'g - g'f) / g^2
+
+Differentiate f(x) = cos^4(x)
+-4 * cos^3(x) * sin(x)
+Chain rule [f(g(x))] = f'(g(x)) * g'(x)
+
+Differentiate f(x) = x / (1 + x^2)
+(1 - x^2) / (1 + x^2)^2
+Quotient rule (f/g)=(f'g - fg') / g^2
+
+Differentiate f(x) = ln(x * e^(7x))
+1/x + 7
+Rewrite first.
+
+Differentiate f(x) = x^3 * sqrt(2 - x)
+3x^2 * sqrt(2 - x) - (x^3) / (2 * sqrt(2 - x))
+Product + chain rule.
+
+Differentiate f(x) = 2x - 4 / sqrt(x)
+2 + 2 * x^(-3/2)
+Rewrite 4/sqrt(x) as 4 * x^(-1/2).
+
+Differentiate f(x) = sqrt(x^2 + 8)
+x / sqrt(x^2 + 8)
+Chain rule.
+
+Differentiate f(x) = x / sqrt(1 - (ln(x))^2)
+( sqrt(1 - (ln(x))^2) - x * ( -(ln(x))/x ) ) / (1 - (ln(x))^2)
+Chain + quotient rule.
+
+Differentiate f(x) = 6 / (3x^2 - pi)^4
+-48x * (3x^2 - pi)^(-5)
+Chain rule.
+
+Differentiate f(x) = (3x^2 - pi*x)^4 / 6
+(4/6) * (3x^2 - pi*x)^3 * (6x - pi)
+Chain rule.
+
+Differentiate f(x) = (x * e^x)^pi
+pi * (x * e^x)^(pi - 1) * (e^x + x * e^x)
+Product + chain rule.
+
+Differentiate f(x) = (arctan(2x))^10
+10 * arctan(2x)^9 * (2/(1 + 4x^2))
+Chain rule.
+
+Differentiate f(x) = (e^(2x) + e)^(1/2)
+(e^(2x)) / sqrt(e^(2x) + e)
+Chain rule.
+
+Differentiate f(x) = (x^6 + 1)^5 * (4x + 7)^3
+Use product rule + chain rule (result is long).
+
+Differentiate f(x) = (7x + sqrt(x^2 + 3))^6
+6 * (7x + sqrt(x^2 + 3))^5 * (7 + x / sqrt(x^2 + 3))
+Chain rule.
+
+Differentiate f(x) = x - 1/x
+1 + 1/x^2
+Rewrite 1/x as x^(-1).
+
+Differentiate f(x) = x^2 * sin(3x)
+2x * sin(3x) + 3x^2 * cos(3x)
+Product rule.
+
+Differentiate f(x) = tan(cos(x))
+sec^2(cos(x)) * (-sin(x))
+Chain rule.

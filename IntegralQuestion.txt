@@ -1,0 +1,79 @@
+Find the integral of 3x^4 dx
+3x^5/5 + C
+Use the power rule: x^n-> x^n+1/(n+1), 3(x^4+1)/(4+1)=3x^5/5
+
+Find the integral of sin(2x) dx
+-(1/2)cos(2x) + C
+Derivative of cos(2x) is -2sin(2x).
+
+Find the integral of 9 sec^2(x) dx
+9 tan(x) + C
+The integral of sec^2(x) is tan(x).
+
+Find the integral of y^(-3) dy
+-1/(2y^2) + C
+Increase exponent by 1 and divide.
+
+Evaluate the integral of e^x dx
+e^x + C
+Basic exponential integral.
+
+Evaluate the integral of (4x^3 - 2x) dx
+x^4 - x^2 + C
+Integrate each term separately.
+
+Find the integral of (1 / x) dx
+ln|x| + C
+Standard logarithmic integral.
+
+Evaluate the integral of sin(3y) dy
+-(1/3)cos(3y) + C
+Reverse chain rule.
+
+Compute the integral of cos(5x) dx
+(1/5)sin(5x) + C
+Derivative of sin(5x) is 5cos(5x).
+
+Evaluate the integral of (2x + 7) dx
+x^2 + 7x + C
+Reverse of derivative.
+
+Find the integral of tan(x) * sec^2(x) dx
+(1/2)tan^2(x) + C
+Use u = tan(x).
+
+Evaluate the integral of 1 / (1 + x^2) dx
+arctan(x) + C
+Standard trig integral.
+
+Compute the integral of x^2 dx
+x^3/3 + C
+Power rule.
+
+Find the integral of sec(x) * tan(x) dx
+sec(x) + C
+Derivative of sec(x) is sec(x)tan(x).
+
+Evaluate the integral of 3e^(2x) dx
+(3/2)e^(2x) + C
+Reverse chain rule.
+
+Compute the integral of sqrt(x) dx
+(2/3)x^(3/2) + C
+Rewrite as x^(1/2) before integrating.
+
+Find the integral of 4 / x dx
+4 ln|x| + C
+Constant multiple rule.
+
+Evaluate the integral of (5x^4 + 3x^2 - 7) dx
+x^5 + x^3 - 7x + C
+Term-by-term integration.
+
+Compute the integral of 1 / sqrt(1 - x^2) dx
+arcsin(x) + C
+Inverse trig form.
+
+Evaluate the integral of (2x) / (1 + x^2) dx
+ln(1 + x^2) + C
+Use u = 1 + x^2.

@@ -1,0 +1,7 @@
+integration of x^n dx = x^(n+1)/(n+1) + C
+integration of 1/x dx = ln|x| + C
+integration of e^x dx = e^x + C
+integration of sin(x) dx = -cos(x) + C
+integration of cos(x) dx = sin(x) + C
+integration of sec^2(x) dx = tan(x) + C
+integration of 1/(1+x^2) dx = arctan(x) + C

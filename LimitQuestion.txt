@@ -1,0 +1,79 @@
+Compute lim(x->0) (x^2 - 5)
+-5
+Direct substitution.
+
+Compute lim(x->2) (x^3 + 5x^2 - 7x + 1)
+15
+Substitute x = 2.
+
+Compute lim(x->0) (sin x)/x
+1
+Important trig limit.
+
+Compute lim(x->0) (cos x - 1)/x
+0
+Use series or a known limit.
+
+Compute lim(x->8) (x^2 + 64)/(x + 8)
+8
+Factor or substitute.
+
+Compute lim(x->5) (x^2 + 14x + 49)
+144
+Substitute x = 5.
+
+Compute lim(x->4) (x - 6)
+-2
+Direct evaluation.
+
+Compute lim(x->6) (x + 6)/(x - 6)^2
+infinity
+The denominator approaches 0 from the right.
+
+Compute lim(x->7) (7 - x)/(7 - x)
+1
+Simplify first
+
+Compute lim(x->-6) (x^2 - 36)/(x + 6)
+-12
+Factor (x - 6)(x + 6) and then simplify (x + 6) and replace x with -6 
+
+Compute lim(x->0) (x^3 + 12x^2 - 5x)/(5x)
+0
+Factor out x, then simplify by x, and replace x with 0.
+
+Compute lim(x->2) (x^2 + 6x - 16)/(x - 2)
+10
+Factor numerator by (x-2), then simplify by (x-2), and replace x with 2.
+
+Compute lim(x->5) (x^2 + 4x - 45)/(x^2 - 25)
+1
+Factor numerator by (x -5), then simplify by (x - 5), and replace x with 5.
+
+Compute lim(x->0) (10 sin x)/(6x)
+5/3
+Isolate 10/6 first then Use sin(x)/x -> 1.
+
+Compute lim(x->infinity) (x^2)/(x^3 + 9x^2 + 5)
+0
+Degree of denominator is larger, x^2/x^3= 1/x =0 when x->infinity.
+
+Compute lim(x->infinity) (3x + 1)/(11x - 7)
+3/11
+Use leading coefficients, 3x/11x=3/11 when x->infinity.
+
+Compute lim(x->infinity) (7x^3 - 3x^2)/(-x^3 - 2x)
+-7
+Use leading terms.
+
+Compute lim(x->-infinity) (5x^3 + 4x^2)/(x - 5x^2)
+-5
+Compare leading degrees, 5x^3/-5x^2=5/-1=-5 when x->-infinity.
+
+Compute lim(x->0^+) 1/x
+infinity
+Right side tends to infinity.
+
+Compute lim(x->0^-) 1/x
+-infinity
+Left side tends to negative infinity.
